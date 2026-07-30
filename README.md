@@ -1,15 +1,15 @@
 # Repository Coverage (chroma-combined)
 
-[Full report](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-chroma-combined/htmlcov/index.html)
+[Full report](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-chroma-combined/htmlcov/index.html)
 
 | Name                                                                  |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |---------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/retrievers/chroma/retriever.py  |       59 |        0 |        4 |        0 |    100% |           |
-| src/haystack\_integrations/document\_stores/chroma/document\_store.py |      540 |       34 |      182 |       18 |     93% |139, 200-206, 242-243, 603-\>606, 616, 620, 663, 694, 745, 748-\>750, 751, 762-764, 793, 796-\>798, 799, 809-811, 849-851, 875, 891-893, 932-934, 973-975, 1346, 1394-\>1397, 1440-\>1445 |
+| src/haystack\_integrations/components/retrievers/chroma/retriever.py  |       63 |        0 |        4 |        0 |    100% |           |
+| src/haystack\_integrations/document\_stores/chroma/document\_store.py |      541 |       32 |      178 |       16 |     93% |203-209, 254-255, 618-\>621, 631, 635, 678, 709, 760, 763-\>765, 766, 777-779, 808, 811-\>813, 814, 824-826, 864-866, 890, 906-908, 948-950, 989-991, 1402-\>1405, 1448-\>1453 |
 | src/haystack\_integrations/document\_stores/chroma/errors.py          |        8 |        0 |        0 |        0 |    100% |           |
 | src/haystack\_integrations/document\_stores/chroma/filters.py         |       83 |        1 |       36 |        1 |     98% |        60 |
 | src/haystack\_integrations/document\_stores/chroma/utils.py           |       11 |        0 |        0 |        0 |    100% |           |
-| **TOTAL**                                                             |  **701** |   **35** |  **222** |   **19** | **94%** |           |
+| **TOTAL**                                                             |  **706** |   **33** |  **218** |   **17** | **94%** |           |
 
 
 ## Setup coverage badge
@@ -18,20 +18,20 @@ Below are examples of the badges you can use in your main branch `README` file.
 
 ### Direct image
 
-[![Coverage badge](https://raw.githubusercontent.com/deepset-ai/haystack-core-integrations/python-coverage-comment-action-data-chroma-combined/badge.svg)](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-chroma-combined/htmlcov/index.html)
+[![Coverage badge](https://raw.githubusercontent.com/wrongbutworks/haystack-core-integrations/python-coverage-comment-action-data-chroma-combined/badge.svg)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-chroma-combined/htmlcov/index.html)
 
 This is the one to use if your repository is private or if you don't want to customize anything.
 
 ### [Shields.io](https://shields.io) Json Endpoint
 
-[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/deepset-ai/haystack-core-integrations/python-coverage-comment-action-data-chroma-combined/endpoint.json)](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-chroma-combined/htmlcov/index.html)
+[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/wrongbutworks/haystack-core-integrations/python-coverage-comment-action-data-chroma-combined/endpoint.json)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-chroma-combined/htmlcov/index.html)
 
 Using this one will allow you to [customize](https://shields.io/endpoint) the look of your badge.
 It won't work with private repositories. It won't be refreshed more than once per five minutes.
 
 ### [Shields.io](https://shields.io) Dynamic Badge
 
-[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdeepset-ai%2Fhaystack-core-integrations%2Fpython-coverage-comment-action-data-chroma-combined%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-chroma-combined/htmlcov/index.html)
+[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrongbutworks%2Fhaystack-core-integrations%2Fpython-coverage-comment-action-data-chroma-combined%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-chroma-combined/htmlcov/index.html)
 
 This one will always be the same color. It won't work for private repos. I'm not even sure why we included it.
 
