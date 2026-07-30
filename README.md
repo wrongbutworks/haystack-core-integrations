@@ -1,14 +1,14 @@
 # Repository Coverage (mongodb_atlas-combined)
 
-[Full report](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-mongodb_atlas-combined/htmlcov/index.html)
+[Full report](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-mongodb_atlas-combined/htmlcov/index.html)
 
 | Name                                                                                     |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |----------------------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/retrievers/mongodb\_atlas/embedding\_retriever.py  |       36 |        0 |        4 |        0 |    100% |           |
-| src/haystack\_integrations/components/retrievers/mongodb\_atlas/full\_text\_retriever.py |       34 |        0 |        2 |        0 |    100% |           |
-| src/haystack\_integrations/document\_stores/mongodb\_atlas/document\_store.py            |      540 |       56 |      140 |       17 |     89% |124, 126, 134, 136, 325, 350-352, 374-376, 387, 408-410, 428-430, 467-469, 487-489, 513, 541-543, 567-569, 616-\>621, 660-\>665, 701, 713, 737-739, 762-764, 791-793, 820-822, 870-872, 922-924, 1015, 1018-\>1023, 1025-1026, 1115-\>1117, 1179, 1185, 1209-\>1211, 1241-\>1250 |
-| src/haystack\_integrations/document\_stores/mongodb\_atlas/filters.py                    |       87 |        0 |       36 |        0 |    100% |           |
-| **TOTAL**                                                                                |  **697** |   **56** |  **182** |   **17** | **92%** |           |
+| src/haystack\_integrations/components/retrievers/mongodb\_atlas/embedding\_retriever.py  |       40 |        0 |        4 |        0 |    100% |           |
+| src/haystack\_integrations/components/retrievers/mongodb\_atlas/full\_text\_retriever.py |       38 |        0 |        2 |        0 |    100% |           |
+| src/haystack\_integrations/document\_stores/mongodb\_atlas/document\_store.py            |      553 |      215 |      144 |       24 |     61% |138, 140, 148, 150, 207-\>212, 220-\>exit, 231-\>236, 244-\>exit, 285-287, 295-297, 318-321, 339, 364-366, 379-390, 394, 401, 422-424, 442-444, 448, 463, 481-483, 501-503, 531, 559-561, 585-587, 599-603, 615-619, 632-661, 676-708, 716-720, 728-732, 742-757, 767-782, 793-811, 822-840, 850-890, 900-942, 986-\>991, 1033, 1036-\>1041, 1043-1044, 1133-\>1135, 1197, 1201, 1203, 1227-\>1229, 1241-\>1243, 1243-\>1245, 1259-\>1268 |
+| src/haystack\_integrations/document\_stores/mongodb\_atlas/filters.py                    |       87 |       16 |       36 |       10 |     79% |43, 47, 49, 62-63, 65-66, 78, 85-\>exit, 95, 104-105, 110, 118-120, 128, 136 |
+| **TOTAL**                                                                                |  **718** |  **231** |  **186** |   **34** | **67%** |           |
 
 
 ## Setup coverage badge
@@ -17,20 +17,20 @@ Below are examples of the badges you can use in your main branch `README` file.
 
 ### Direct image
 
-[![Coverage badge](https://raw.githubusercontent.com/deepset-ai/haystack-core-integrations/python-coverage-comment-action-data-mongodb_atlas-combined/badge.svg)](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-mongodb_atlas-combined/htmlcov/index.html)
+[![Coverage badge](https://raw.githubusercontent.com/wrongbutworks/haystack-core-integrations/python-coverage-comment-action-data-mongodb_atlas-combined/badge.svg)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-mongodb_atlas-combined/htmlcov/index.html)
 
 This is the one to use if your repository is private or if you don't want to customize anything.
 
 ### [Shields.io](https://shields.io) Json Endpoint
 
-[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/deepset-ai/haystack-core-integrations/python-coverage-comment-action-data-mongodb_atlas-combined/endpoint.json)](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-mongodb_atlas-combined/htmlcov/index.html)
+[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/wrongbutworks/haystack-core-integrations/python-coverage-comment-action-data-mongodb_atlas-combined/endpoint.json)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-mongodb_atlas-combined/htmlcov/index.html)
 
 Using this one will allow you to [customize](https://shields.io/endpoint) the look of your badge.
 It won't work with private repositories. It won't be refreshed more than once per five minutes.
 
 ### [Shields.io](https://shields.io) Dynamic Badge
 
-[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdeepset-ai%2Fhaystack-core-integrations%2Fpython-coverage-comment-action-data-mongodb_atlas-combined%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-mongodb_atlas-combined/htmlcov/index.html)
+[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrongbutworks%2Fhaystack-core-integrations%2Fpython-coverage-comment-action-data-mongodb_atlas-combined%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-mongodb_atlas-combined/htmlcov/index.html)
 
 This one will always be the same color. It won't work for private repos. I'm not even sure why we included it.
 
