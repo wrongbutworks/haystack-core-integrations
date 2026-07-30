@@ -1,13 +1,13 @@
 # Repository Coverage (falkordb-combined)
 
-[Full report](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-falkordb-combined/htmlcov/index.html)
+[Full report](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-falkordb-combined/htmlcov/index.html)
 
 | Name                                                                              |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |---------------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/retrievers/falkordb/cypher\_retriever.py    |       27 |        0 |        4 |        0 |    100% |           |
-| src/haystack\_integrations/components/retrievers/falkordb/embedding\_retriever.py |       30 |        0 |        4 |        1 |     97% |   90-\>92 |
-| src/haystack\_integrations/document\_stores/falkordb/document\_store.py           |      363 |       21 |      112 |        4 |     93% |213-217, 227-235, 435-437, 563, 566, 618-619, 720-722, 778-781 |
-| **TOTAL**                                                                         |  **420** |   **21** |  **120** |    **5** | **94%** |           |
+| src/haystack\_integrations/components/retrievers/falkordb/cypher\_retriever.py    |       29 |        0 |        4 |        0 |    100% |           |
+| src/haystack\_integrations/components/retrievers/falkordb/embedding\_retriever.py |       32 |        0 |        4 |        1 |     97% |   90-\>92 |
+| src/haystack\_integrations/document\_stores/falkordb/document\_store.py           |      371 |       19 |      114 |        3 |     94% |225-229, 239-247, 447-449, 575, 578, 733-735, 791-794 |
+| **TOTAL**                                                                         |  **432** |   **19** |  **122** |    **4** | **95%** |           |
 
 
 ## Setup coverage badge
@@ -16,20 +16,20 @@ Below are examples of the badges you can use in your main branch `README` file.
 
 ### Direct image
 
-[![Coverage badge](https://raw.githubusercontent.com/deepset-ai/haystack-core-integrations/python-coverage-comment-action-data-falkordb-combined/badge.svg)](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-falkordb-combined/htmlcov/index.html)
+[![Coverage badge](https://raw.githubusercontent.com/wrongbutworks/haystack-core-integrations/python-coverage-comment-action-data-falkordb-combined/badge.svg)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-falkordb-combined/htmlcov/index.html)
 
 This is the one to use if your repository is private or if you don't want to customize anything.
 
 ### [Shields.io](https://shields.io) Json Endpoint
 
-[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/deepset-ai/haystack-core-integrations/python-coverage-comment-action-data-falkordb-combined/endpoint.json)](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-falkordb-combined/htmlcov/index.html)
+[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/wrongbutworks/haystack-core-integrations/python-coverage-comment-action-data-falkordb-combined/endpoint.json)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-falkordb-combined/htmlcov/index.html)
 
 Using this one will allow you to [customize](https://shields.io/endpoint) the look of your badge.
 It won't work with private repositories. It won't be refreshed more than once per five minutes.
 
 ### [Shields.io](https://shields.io) Dynamic Badge
 
-[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdeepset-ai%2Fhaystack-core-integrations%2Fpython-coverage-comment-action-data-falkordb-combined%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-falkordb-combined/htmlcov/index.html)
+[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrongbutworks%2Fhaystack-core-integrations%2Fpython-coverage-comment-action-data-falkordb-combined%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-falkordb-combined/htmlcov/index.html)
 
 This one will always be the same color. It won't work for private repos. I'm not even sure why we included it.
 
