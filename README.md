@@ -1,12 +1,12 @@
 # Repository Coverage (weave-combined)
 
-[Full report](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-weave-combined/htmlcov/index.html)
+[Full report](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-weave-combined/htmlcov/index.html)
 
 | Name                                                                       |    Stmts |     Miss |   Branch |   BrPart |   Cover |   Missing |
 |--------------------------------------------------------------------------- | -------: | -------: | -------: | -------: | ------: | --------: |
-| src/haystack\_integrations/components/connectors/weave/weave\_connector.py |       34 |        1 |       10 |        3 |     91% |93-\>exit, 116, 117-\>120 |
-| src/haystack\_integrations/tracing/weave/tracer.py                         |       86 |        3 |       12 |        0 |     95% |     55-57 |
-| **TOTAL**                                                                  |  **120** |    **4** |   **22** |    **3** | **94%** |           |
+| src/haystack\_integrations/components/connectors/weave/weave\_connector.py |       34 |        2 |       10 |        4 |     86% |93-\>exit, 101, 116, 117-\>120 |
+| src/haystack\_integrations/tracing/weave/tracer.py                         |       86 |        3 |       12 |        1 |     94% |55-57, 86-\>93 |
+| **TOTAL**                                                                  |  **120** |    **5** |   **22** |    **5** | **92%** |           |
 
 
 ## Setup coverage badge
@@ -15,20 +15,20 @@ Below are examples of the badges you can use in your main branch `README` file.
 
 ### Direct image
 
-[![Coverage badge](https://raw.githubusercontent.com/deepset-ai/haystack-core-integrations/python-coverage-comment-action-data-weave-combined/badge.svg)](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-weave-combined/htmlcov/index.html)
+[![Coverage badge](https://raw.githubusercontent.com/wrongbutworks/haystack-core-integrations/python-coverage-comment-action-data-weave-combined/badge.svg)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-weave-combined/htmlcov/index.html)
 
 This is the one to use if your repository is private or if you don't want to customize anything.
 
 ### [Shields.io](https://shields.io) Json Endpoint
 
-[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/deepset-ai/haystack-core-integrations/python-coverage-comment-action-data-weave-combined/endpoint.json)](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-weave-combined/htmlcov/index.html)
+[![Coverage badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/wrongbutworks/haystack-core-integrations/python-coverage-comment-action-data-weave-combined/endpoint.json)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-weave-combined/htmlcov/index.html)
 
 Using this one will allow you to [customize](https://shields.io/endpoint) the look of your badge.
 It won't work with private repositories. It won't be refreshed more than once per five minutes.
 
 ### [Shields.io](https://shields.io) Dynamic Badge
 
-[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdeepset-ai%2Fhaystack-core-integrations%2Fpython-coverage-comment-action-data-weave-combined%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/deepset-ai/haystack-core-integrations/blob/python-coverage-comment-action-data-weave-combined/htmlcov/index.html)
+[![Coverage badge](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=coverage&query=%24.message&url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrongbutworks%2Fhaystack-core-integrations%2Fpython-coverage-comment-action-data-weave-combined%2Fendpoint.json)](https://htmlpreview.github.io/?https://github.com/wrongbutworks/haystack-core-integrations/blob/python-coverage-comment-action-data-weave-combined/htmlcov/index.html)
 
 This one will always be the same color. It won't work for private repos. I'm not even sure why we included it.
 
